@@ -1,0 +1,71 @@
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Utilty Classes*/
+header{
+	background: ;
+}
+.img-responsive {
+  max-width: 100%;
+}
+
+.hero_image {
+	background: url(globe.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.hero_wrapper {
+	color:#002200;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.hero_wrapper h1 {
+	font-size: 3.4rem;
+	text-align: center;
+}
+
+
+.hero_wrapper span {
+	margin-left: 5rem;
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 1s;
+
+}
+.btn:hover{
+	transform: scale(1.1);
+
+}
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44;
+  border-width: 5px;
+  cursor: pointer;
+  
+}
+
+.btn-primary {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+  
+}
